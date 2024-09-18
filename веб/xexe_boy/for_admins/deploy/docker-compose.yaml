@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    container_name: xexe_boy
+    build: .
+    ports:
+      - "1234:1234"  # Пробрасываем порт 1234 с хоста в контейнер
+    volumes:
+      - ./flag.txt:/flag.txt  # Примонтируйте flag.txt в корень контейнера
+    environment:
+      - FLASK_ENV=development  # Для дебагинга
+    restart: always

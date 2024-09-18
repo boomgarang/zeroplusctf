@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .main {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+        }
+
+        .main h2 {
+            color: #4caf50;
+            margin-bottom: 20px;
+        }
+
+        .profile-data {
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .profile-data label {
+            font-weight: bold;
+            color: #555;
+            margin-right: 10px;
+        }
+
+        .profile-data span {
+            color: #333;
+        }
+
+        button[type="button"] {
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h2>Profile</h2>
+        <div class="profile-data">
+            <label>First Name:</label>
+            <span>{{ first }}</span>
+        </div>
+        <div class="profile-data">
+            <label>Last Name:</label>
+            <span>{{ last }}</span>
+        </div>
+        <div class="profile-data">
+            <label>Email:</label>
+            <span>{{ email }}</span>
+        </div>
+        <div class="profile-data">
+            <label>Contact:</label>
+            <span>{{ mobile }}</span>
+        </div>
+        <div class="profile-data">
+            <label>Gender:</label>
+            <span>{{ gender }}</span>
+        </div>
+        <button type="button" onclick="window.location.href='/'">Back to Registration</button>
+    </div>
+</body>
