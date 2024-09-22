@@ -1,0 +1,2 @@
+1. Скачать rust "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+2. Зайти в папку back. Написать cargo run --release. И сервер будет запущен, в папке Rocket.toml можно указать порт, (7000 по умолчанию)
