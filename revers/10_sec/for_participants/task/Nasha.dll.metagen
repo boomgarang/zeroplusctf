@@ -1,0 +1,136 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Nasha, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Struct DiscoverInstruction: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct NStack: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct NStringReader: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct OpcodeDiscover: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct HandlerLinker: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct DotnetReferences: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct VMBytes: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct GSC: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class Locals: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Insert(Int32, gcroot<System::Object ^>*): PrivateScope, Public, HideBySig
+    Lookup(gcroot<System::Object ^>*, Int32): PrivateScope, Public, HideBySig
+Class Arithmetics: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Runtime.CompilerServices.CallSite`1[System.Func`4[System.Runtime.CompilerServices.CallSite,System.Object,System.Object,System.Object]] AddCS : Public
+    System.Runtime.CompilerServices.CallSite`1[System.Func`4[System.Runtime.CompilerServices.CallSite,System.Object,System.Object,System.Object]] SubCS : Public
+    System.Runtime.CompilerServices.CallSite`1[System.Func`4[System.Runtime.CompilerServices.CallSite,System.Object,System.Object,System.Object]] XorCS : Public
+    System.Runtime.CompilerServices.CallSite`1[System.Func`4[System.Runtime.CompilerServices.CallSite,System.Object,System.Object,System.Object]] DivCS : Public
+    System.Runtime.CompilerServices.CallSite`1[System.Func`4[System.Runtime.CompilerServices.CallSite,System.Object,System.Object,System.Object]] MulCS : Public
+Class VMBody: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(gcroot<System::IO::BinaryReader ^>*, gcroot<cli::array<System::Object ^ >^>*, GSC*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetParameters(gcroot<cli::array<System::Object ^ >^>*): PrivateScope, Public, HideBySig
+    GetReader(gcroot<System::IO::BinaryReader ^>*): PrivateScope, Public, HideBySig
+    IsMethodReturning(): PrivateScope, Public, HideBySig
+    GetReturnedObject(gcroot<System::Object ^>*): PrivateScope, Public, HideBySig
+    SetReturnedObject(gcroot<System::Object ^>*): PrivateScope, Public, HideBySig
+    GetActualFlow(gcroot<System::Int32 ^>*): PrivateScope, Public, HideBySig
+    SetActualFlow(gcroot<System::Int32 ^>*): PrivateScope, Public, HideBySig
+    GetStack(): PrivateScope, Public, HideBySig
+    Global(): PrivateScope, Public, HideBySig
+    GetLocals(): PrivateScope, Public, HideBySig
+    GetArithmetics(): PrivateScope, Public, HideBySig
+Struct Add: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct ParameterParser: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Castclass: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Div: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Dup: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Ldarg: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct LdcR8: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Ldftn: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Mul: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Newarr: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Newobj: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Sub: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Xor: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Br: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Brfalse: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Brtrue: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Ldloc: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Ldsfld: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Call: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct SectionReader: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class Config: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    GSC* glob : Public
+  Methods:
+    SetupReferences(): PrivateScope, Public, HideBySig
+    SetupDiscover(): PrivateScope, Public, HideBySig
+    SetupBody(): PrivateScope, Public, HideBySig
+Struct Ret: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct LdcI4: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Ldstr: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Nop: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Pop: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Stsfld: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Stloc: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class Main: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Execute(Object[], Int32, Config): PrivateScope, Public, HideBySig
+Struct StrToArray: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class StrToArray+StrToArrayHelper: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String hex01 : Public, Static
+  Methods:
+    lambdaWhereItem(Int32): PrivateScope, Public, Static, HideBySig
+    lambdaItem(Int32): PrivateScope, Public, Static, HideBySig
+Class StrToArray+StrToStdStrHelper: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String hex01 : Public, Static
+  Methods:
+    lambdaWhereItem(Int32): PrivateScope, Public, Static, HideBySig
+    lambdaItem(Int32): PrivateScope, Public, Static, HideBySig
