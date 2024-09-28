@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h2>Welcome, {{ session.get('username') }}!</h2>
+<p>Your balance: $<span id="balance">{{ balance }}</span></p>
+
+<div class="slot-machine">
+    <div class="slot-reel" id="reel1">0</div>
+    <div class="slot-reel" id="reel2">0</div>
+    <div class="slot-reel" id="reel3">0</div>
+</div>
+
+<button id="spin-button">Spin</button>
+
+<p id="result"></p>
+
+<script src="{{ url_for('static', filename='crypto-js.min.js') }}"></script>
+<script src="{{ url_for('static', filename='scripts.js') }}"></script>
+{% endblock %}

@@ -1,4 +1,0 @@
-mfpmpppmfpfm ppmmpp pmppppppffppmffpppmfm mmfmfpmppmmfpmpfmm fppmffpmfpmf mfpmpppmfpfm ffmppffmf
-
-mfpfmpfmppfmfmpppmmppfmmmpppppmpmfmmfmpmmmpfffmpMmfPfpFppMmfpmmFppfmmmpffpmMpffpppmf
-Формат флага: antikpk1{flag}

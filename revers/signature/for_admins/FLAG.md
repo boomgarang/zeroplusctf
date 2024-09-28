@@ -1,1 +1,0 @@
-KpkCTF{7cfb7e521a372c20}

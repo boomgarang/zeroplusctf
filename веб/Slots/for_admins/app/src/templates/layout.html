@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Casino</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Slot Casino</h1>
+        {% if session.get('username') %}
+            <nav>
+                <a href="{{ url_for('dashboard') }}">Dashboard</a>
+                <a href="{{ url_for('shop') }}">Shop</a>
+                <a href="{{ url_for('logout') }}">Logout</a>
+            </nav>
+        {% else %}
+            <nav>
+                <a href="{{ url_for('index') }}">Login</a>
+                <a href="{{ url_for('signup') }}">Signup</a>
+            </nav>
+        {% endif %}
+    </header>
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
