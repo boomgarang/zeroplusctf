@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "8274be7f03c14b16",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a101ced309ac584",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfe269b3b45b1d1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Гайдай какой-то (writeup).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d8305616df4aaab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Гайдай какой-то (writeup).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "394a4f370887ba65",
+    "type": "split",
+    "children": [
+      {
+        "id": "03b49f0d59ad8484",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae7216f96354af1a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "adcdcea75e6bbf1a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "926c476b7e58ea1e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "893cfbf39e3aa9f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "43ee1b1a6670b681",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fc54dfbca86b867",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Гайдай какой-то (writeup).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a59b8b057cc88820",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Гайдай какой-то (writeup).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d197bca648f80125",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ee89afba913b6f73",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Гайдай какой-то (writeup).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "ae7216f96354af1a",
+  "lastOpenFiles": [
+    "Гайдай какой-то (флаг).md",
+    "Гайдай какой-то (writeup).md",
+    "Гайдай какой-то.md",
+    "~$йдай какой-то (writeup).md",
+    "Assets/1.png",
+    "Assets/7.png",
+    "Assets/7.png",
+    "Assets/6.png",
+    "Assets/5.png",
+    "Assets/3.png",
+    "Assets/2.png",
+    "Assets/2.png",
+    "Assets",
+    "Assets/4.png",
+    "10.09.2024 задачи инициативы.md",
+    "2024-04-21.md",
+    "Welcome.md",
+    "Без названия.canvas",
+    "Без названия 1.canvas"
+  ]
+}
