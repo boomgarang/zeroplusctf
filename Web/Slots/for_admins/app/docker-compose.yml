@@ -1,7 +1,0 @@
-services:
-  slots:
-    build: .
-    ports:
-      - "15000:5000"
-    environment:
-      - FLAG=KpkCTF{С@s1no_1s_14_P6rc6nt_h@ck6d}

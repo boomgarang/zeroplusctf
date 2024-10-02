@@ -1,0 +1,20 @@
+services:
+  calculator:
+    build: .
+    ports:
+      - "17000:5000"
+    deploy:
+      resources:
+        limits:
+          cpus: "0.50"
+          memory: 200M
+    read_only: true
+    volumes:
+      - ./flag.txt:/flag.txt
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+      - seccomp:unconfined
+    tmpfs: /tmp
+    restart: unless-stopped

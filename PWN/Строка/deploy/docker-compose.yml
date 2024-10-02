@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  socat_service:
+    build: .
+    container_name: pwn_2
+    ports:
+      - "9000:1234" # Проброс порта для внешнего подключения
+    restart: always # Обеспечивает перезапуск контейнера
+    volumes:
+      - ./task:/app/task # Привязываем файл task с хоста внутрь контейнера
+    deploy:
+      restart_policy:
+        condition: any
+        delay: 30m # Перезапуск каждые 30 минут
